@@ -12,3 +12,12 @@ function sayHello(name:string) : string {
 
 sayHello("Kenn")
 // sayHello(1)
+
+
+function addNumbersWithOptional(numOne: number, numTwo: number, someString?: string){
+    console.log(someString)
+    return numOne + numTwo
+}
+
+addNumbersWithOptional(1,2)
+addNumbersWithOptional(1,2,'This is optionals')

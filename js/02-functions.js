@@ -9,4 +9,10 @@ function sayHello(name) {
 }
 sayHello("Kenn");
 // sayHello(1)
+function addNumbersWithOptional(numOne, numTwo, someString) {
+    console.log(someString);
+    return numOne + numTwo;
+}
+addNumbersWithOptional(1, 2);
+addNumbersWithOptional(1, 2, 'This is optionals');
 //# sourceMappingURL=02-functions.js.map
